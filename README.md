@@ -20,10 +20,10 @@ This is a responsive and clean E-commerce website/app built using **React.js** a
 
 ## Screenshots
 
-![Homepage Screenshot](public/screenshots/screenshot1.png)
+![Homepage Screenshot](./public/screenshots/screenshot1.png)
 *The homepage of the app.*
 
-![Product Details Screenshot](public/screenshots/screenshot2.png)
+![Product Details Screenshot](./public/screenshots/screenshot2.png)
 *Detailed view of a product.*
 
 
