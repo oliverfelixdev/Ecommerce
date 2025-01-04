@@ -8,7 +8,10 @@ const App = () => {
     event.preventDefault();
   };
   return (
-    <div onContextMenu={handleContextMenu} className="h-screen w-screen flex flex-col bg-zinc-100">
+    <div
+      onContextMenu={handleContextMenu}
+      className="h-screen w-screen flex flex-col bg-zinc-100"
+    >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/details/:id" element={<Details />} />

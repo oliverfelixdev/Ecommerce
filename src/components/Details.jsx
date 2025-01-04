@@ -4,7 +4,6 @@ import axios from "../utils/Axios";
 import Loading from "./Loading";
 
 const Details = () => {
-
   const [product, setProduct] = useState(null);
   const { id } = useParams();
   const navigate = useNavigate();
@@ -22,9 +21,7 @@ const Details = () => {
   }, []);
 
   return product ? (
-    <div
-      className="w-4/5 h-3/4 relative bg-zinc-100 border-zinc-200 border-x border-y m-auto p-3 select-none flex flex-col md:flex-row sm:flex-row items-center gap-6 shadow-md rounded-lg overflow-auto"
-    >
+    <div className="w-4/5 h-3/4 relative bg-zinc-100 border-zinc-200 border-x border-y m-auto p-3 select-none flex flex-col md:flex-row sm:flex-row items-center gap-6 shadow-md rounded-lg overflow-auto">
       <button
         className="absolute top-1 right-2 text-gray-500 hover:scale-95 transition-transform font-bold text-lg p-3"
         onClick={() => navigate(-1)}
