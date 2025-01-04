@@ -20,37 +20,40 @@ This is a responsive and clean E-commerce website/app built using **React.js** a
 
 ## Screenshots
 
-![Homepage Screenshot](./public/screenshots/screenshot1.png)
-*The homepage of the app.*
+![Homepage Screenshot](https://raw.githubusercontent.com/oliverfelixdev/Ecommerce/refs/heads/main/public/screenshots/Screenshot1.png)
+_The homepage of the app._
 
-![Product Details Screenshot](./public/screenshots/screenshot2.png)
-*Detailed view of a product.*
-
+![Product Details Screenshot](https://raw.githubusercontent.com/oliverfelixdev/Ecommerce/refs/heads/main/public/screenshots/Screenshot2.png)
+_Detailed view of a product._
 
 ## Live Preview
 
-*Coming soon!*
+_Coming soon!_
 
 ## Installation
 
 To run this project locally:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/oliverfelixdev/Ecommerce
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd Ecommerce
    ```
 
 3. Install dependencies:
+
    ```bash
    npm install
    ```
 
 4. Start the development server:
+
    ```bash
    npm start
    ```
@@ -97,4 +100,5 @@ This project is licensed under the **MIT License**.
 ### Connect
 
 If you have questions or need help, feel free to reach out:
+
 - **[Instagram](https://www.instagram.com/oliverfelix.dev)**
