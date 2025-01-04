@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ProductContext } from "../utils/Context";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
 
 const Navigation = () => {
@@ -22,13 +22,12 @@ const Navigation = () => {
           >
             Add New Products
           </a>
-
           <Link
             to="/"
             className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-green-500 to-lime-400 text-white rounded-md shadow-md"
           >
             <AiOutlineHome className="text-lg" />
-            <span className="text-sm font-medium capitalize">Index</span>
+            <span className="text-sm font-medium capitalize">Home</span>
           </Link>
         </div>
 
